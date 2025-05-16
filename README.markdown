@@ -1,10 +1,10 @@
 # Manga Downloader
 
-A Python tool to download manga images from nhentai.net by entering URLs via the console.
+A Python tool to download manga images from nhxxxai.net by entering URLs via the console.
 
 ## Features
 
-- Download manga images from nhentai.net using Selenium and Requests.
+- Download manga images from nhxxxai.net using Selenium and Requests.
 - User-friendly: Input manga URLs directly in the console.
 - Automatically creates a folder for each manga based on its ID.
 - Supports multiple manga downloads in one session.
@@ -20,7 +20,7 @@ A Python tool to download manga images from nhentai.net by entering URLs via the
 1. **Clone or download the repository**:
 
    ```bash
-   git clone https://github.com/<username>/manga_downloader.git
+   git clone https://github.com/Hoa2-p/manga_downloader.git
    cd manga_downloader
    ```
 
@@ -49,13 +49,13 @@ A Python tool to download manga images from nhentai.net by entering URLs via the
 
 2. **Enter manga URL**:
 
-   - When prompted, enter the manga URL (e.g., https://nhentai.net/g/520903/).
+   - When prompted, enter the manga URL (e.g., https://nhxxxai.net/g/123456/).
    - Press Enter to download the manga.
    - Enter another URL to download more, or press Enter again to exit.
 
 3. **Check downloaded images**:
 
-   - Images are saved in the nhentai\_&lt;ID&gt; folder (e.g., nhentai_520903) in the project directory.
+   - Images are saved in the nhxxxai\_&lt;ID&gt;" folder (e.g., "nhxxxai_123456") in the project directory.
    - Files are named page_001.jpg, page_002.jpg, etc.
 
 ## Troubleshooting
@@ -68,7 +68,7 @@ A Python tool to download manga images from nhentai.net by entering URLs via the
     driver.add_cookie({'name': 'sessionid', 'value': 'your_sessionid'})
     driver.add_cookie({'name': 'csrftoken', 'value': 'your_csrftoken'})
     ```
-    - Get cookies from Chrome (F12 &gt; Application &gt; Cookies) after logging into nhentai.net.
+    - Get cookies from Chrome (F12 &gt; Application &gt; Cookies) after logging into nhxxxai.net.
   - Try running without headless mode by commenting out:
 
     ```python
@@ -99,4 +99,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Disclaimer
 
 - This tool is for educational purposes only.
-- Respect the terms of service of nhentai.net and use responsibly.
+- Respect the terms of service of nhxxxai.net and use responsibly.
