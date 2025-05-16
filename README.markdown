@@ -55,7 +55,7 @@ A Python tool to download manga images from nh***ai.net by entering URLs via the
 
 3. **Check downloaded images**:
 
-   - Images are saved in the "nh****ai\_&lt;ID&gt;" folder (e.g., "nh***ai_123456") in the project directory.
+   - Images are saved in the nh***ai\_&lt;ID&gt;" folder (e.g., "nh***ai_123456") in the project directory.
    - Files are named page_001.jpg, page_002.jpg, etc.
 
 ## Troubleshooting
