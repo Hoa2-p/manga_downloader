@@ -1,10 +1,10 @@
 # Manga Downloader
 
-A Python tool to download manga images from nhentai.net by entering URLs via the console.
+A Python tool to download manga images from nh***ai.net by entering URLs via the console.
 
 ## Features
 
-- Download manga images from nhentai.net using Selenium and Requests.
+- Download manga images from nh***ai.net using Selenium and Requests.
 - User-friendly: Input manga URLs directly in the console.
 - Automatically creates a folder for each manga based on its ID.
 - Supports multiple manga downloads in one session.
@@ -49,13 +49,13 @@ A Python tool to download manga images from nhentai.net by entering URLs via the
 
 2. **Enter manga URL**:
 
-   - When prompted, enter the manga URL (e.g., https://nhentai.net/g/520903/).
+   - When prompted, enter the manga URL (e.g., https://nh****ai.net/g/123456/).
    - Press Enter to download the manga.
    - Enter another URL to download more, or press Enter again to exit.
 
 3. **Check downloaded images**:
 
-   - Images are saved in the nhentai\_&lt;ID&gt; folder (e.g., nhentai_520903) in the project directory.
+   - Images are saved in the nh****ai\_&lt;ID&gt; folder (e.g., nhentai_520903) in the project directory.
    - Files are named page_001.jpg, page_002.jpg, etc.
 
 ## Troubleshooting
