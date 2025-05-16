@@ -99,4 +99,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Disclaimer
 
 - This tool is for educational purposes only.
-- Respect the terms of service of nhentai.net and use responsibly.
+- Respect the terms of service of nhxxxai.net and use responsibly.
