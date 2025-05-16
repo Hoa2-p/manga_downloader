@@ -83,6 +83,29 @@ For users without Python installed, a standalone executable version is available
 4. **Check downloaded images**:
    - Images are saved in the `nhxxxai_<ID>` folder in the same directory as the .exe.
 
+## Executable Version (.exe)
+
+For users without Python installed, a standalone executable version is available.
+
+1. **Download the .exe**:
+   - Go to the [Releases](https://github.com/Hoa2-p/manga_downloader/releases) page on GitHub.
+   - Download the latest `manga_downloader.zip` file.
+   - Extract the ZIP to a folder (e.g., `C:\MangaDownloader`).
+
+2. **Run the .exe**:
+   - Double-click `manga_downloader.exe`.
+   - Follow the console prompts to enter nhxxxai.net URLs (e.g., `https://nhxxxai.net/g/123456/`).
+   - Press Enter to download, or press Enter again to exit.
+
+3. **Requirements**:
+   - **Google Chrome**: Must be installed and up-to-date.
+   - **Windows**: Compatible with Windows 7 or later.
+   - **Note**: The .exe is large (~200MB) due to bundled Python and dependencies.
+   - **Safety Check**: Verify the file's safety by uploading `manga_downloader.exe` to [VirusTotal](https://www.virustotal.com/gui/home/upload) before running.
+
+4. **Check downloaded images**:
+   - Images are saved in the `nhxxxai_<ID>` folder in the same directory as the .exe.
+   
 ## Troubleshooting
 
 - **"Không tìm thấy số trang" error**:
@@ -105,7 +128,14 @@ For users without Python installed, a standalone executable version is available
     ```bash
     pip install --upgrade -r requirements.txt
     ```
-
+**Antivirus flags .exe as a threat (e.g., Trojan:Win32/Bearfoos.A!ml)**:
+  - This is likely a false positive due to PyInstaller packaging.
+  - Scan the file with VirusTotal (https://www.virustotal.com) to confirm safety. (4/70 detected by security vendors is fine)
+  - To bypass Windows Defender:
+    1. Open Windows Security > Virus & threat protection > Manage settings.
+    2. Go to Exclusions > Add or remove exclusions > Add an exclusion > File.
+    3. Select manga_downloader.exe.
+    - If issues persist, please contact the developer via Github Issues to ask for assistance.
 ## Contributing
 
 - Fork the repository.
@@ -234,7 +264,14 @@ Dành cho người dùng không cài Python, có sẵn phiên bản thực thi �
     ```bash
     pip install --upgrade -r requirements.txt
     ```
-
+- **Antivirus báo động file .exe là mối đe dọa (ví dụ: Trojan:Win32/Bearfoos.A!ml)**:
+     - Đây có thể là báo động giả (false positive) do cách đóng gói bằng PyInstaller.
+     - Quét file bằng [VirusTotal](https://www.virustotal.com) để xác nhận an toàn. (4/70 phát hiện là không sao)
+     - Để bỏ qua Windows Defender:
+       1. Mở **Windows Security** > **Virus & threat protection** > **Manage settings**.
+       2. Vào **Exclusions** > **Add or remove exclusions** > **Add an exclusion** > **File**.
+       3. Chọn file `manga_downloader.exe`.
+     - Nếu vẫn gặp vấn đề, liên hệ nhà phát triển qua GitHub Issues để được hỗ trợ.
 ## Đóng góp
 
 - Fork repository.
