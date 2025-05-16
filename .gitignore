@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+debug.html
+downloads/
+dist/
+build/
+*.spec
