@@ -1,0 +1,20 @@
+Manga Downloader Instructions
+
+This tool downloads manga images from nhxxxai.net.
+IMPORTANT: Only works with nhxxxai.net URLs (e.g., https://nhxxxai.net/g/123456/).
+
+Requirements:
+- Google Chrome installed and updated.
+- Windows 7 or later.
+
+How to use:
+1. Extract manga_downloader.zip to a folder (e.g., C:\MangaDownloader).
+2. Double-click manga_downloader.exe.
+3. Enter a nhxxxai.net URL when prompted.
+4. Images are saved in nhxxxai_<ID> folder in the same directory.
+5. Press Enter to exit or enter another URL.
+
+Troubleshooting:
+- Ensure Chrome is updated.
+- Use a VPN if the site blocks your IP.
+- Contact the developer via GitHub Issues for support.
